@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="F:\varsha\HTML\bookcorner\book1.jfif">
+    <title> Book's Corner </title>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+<div class="navbar">
+      <h1>Book's Corner📚</h1>
+    </div>
+    <div class="container">
+      <div class="book-container">
+        <h2>Percy Jackson and the Lightning Thief</h2>
+        <h5>Rick Riordan </h5>
+        <p>In The Lightning Thief, Percy Jackson is a 12-year-old boy who discovers he is a demigod after he narrowly escapes a minotaur attack. He arrives at Camp Half-Blood, where he is told of his ancestry and discovers his father is Poseidon. He is then sent on a quest to recover Zeus's missing lightning bolt along with Annabeth, daughter of Athena, and Grover, a satyr assigned to protect them. On their quest they encounter monsters and creatures from the Underworld who try to stop them from recovering the lightning bolt and returning it to its rightful owner.</p>
+        <button onclick="deletebook(event)">delete</button>
+      </div>
+    </div>
+    
+<div class="popup-overlay">
+ </div>
+<div class="popup-box">
+      <h2>Add book</h2>
+      <form>
+        <input type="text" placeholder="book title" id="book-title-input">
+        <input type="text" placeholder="book author" id="book-author-input">
+        <textarea placeholder="short description" id="book-description-input"></textarea>
+        <button id="add-book">add</button>
+        <button id="cancel-popup">cancel</button>
+      </form>
+    </div>
+    <button class="add-button" id="add-popup-button">+</button>
+    <script src="script.js"></script>
+  </body>
+</html>
